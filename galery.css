@@ -1,0 +1,22 @@
+.float-kanan{
+float: right;
+}
+.float-kiri{
+    float: left;
+}
+#del{
+    clear: both;
+}
+.margin{
+    margin: 10px 50px 10px 50px;
+}
+.border{
+    border: 3px solid aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+}
+body{
+ background-color: #470652;
+    color: aliceblue;
+    padding: 20px;
+}

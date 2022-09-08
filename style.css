@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 10rem;
+    overflow-x: hidden;
+}
+.jumbotron{
+    height: max-content;
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+}
+#about{
+    width: 100%;
+    height: max-content;
+    background-color: #533483;
+    color: white;
+}
+.container-galery{
+    height: 600px;
+    width: 100%;
+    color: white;
+}
+.container-contact{
+    margin-top: -10rem;
+    background-color:#0F3460;
+    color: white;
+    height: 200px;
+    width: 100%;
+    padding: 5rem;
+}
+a{
+    color: white;
+}
+
+section{
+    padding-top: 8rem;
+}
+.svg-contact{
+    margin-top: 400px;
+}

@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(90deg, rgba(148, 32, 158, 1) 0%, rgba(101, 46, 140, 1) 31%, rgba(12, 124, 145, 1) 100%);
+    padding: 10px;
+    zoom: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    margin-bottom: 5rem;
+    /* box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); */
+    /* background: linear-gradient(90deg, rgba(32,132,158,0.3) 0%, rgba(30,12,145,0.3) 100%); */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    border-radius: 20px;
+    height: max-content;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.556);
+}
+.cardmenu{
+    width:40rem ;
+    font-size: 25px;
+        border-radius: 20px;
+            height: max-content;
+            padding: 1rem;
+}
+
+.card input{
+    padding: 10px 70px 10px 70px;
+}
+@media screen and (max-width: 769px) {
+
+    .cardmenu{
+        width: 90%;
+        font-size: 15px;
+        border-radius: 20px;
+        height: max-content;
+        padding: 1rem;
+    }
+    .menuimg img{
+        width: 50px;
+    }
+    .card{
+        width: 200px;
+        height: auto;
+    }
+    .card img{
+        width: 100px;
+        height: 100px;
+    }
+    .card h4{
+        font-size: smaller;
+    }
+    .card input{
+        width: max-content;
+        padding: 0px 10px 0px 10px;
+        border-radius: 10px;
+    }
+    .card button img{
+        width: 25px;
+        height: 25px;
+    }
+
+}

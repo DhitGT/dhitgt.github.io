@@ -1,0 +1,278 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #131e28;
+}
+
+.navbar{
+    margin-bottom: 2rem;
+}
+
+.navbar-brand{
+    font-size: 50px;
+}
+
+.navbar-brand span{
+    font-size: 30px; 
+    color: cyan;
+}
+
+.content{
+    display: flex;
+}
+
+.card{
+    overflow: hidden;
+    color: aliceblue;
+    background-color: #0e151c3f;
+}
+
+.card-side{
+    padding-bottom: 16rem;
+    width: 20%;
+    padding: 1rem;
+    background-color: #131e2800;
+    border: #0d1926 solid 2px;
+}
+
+.card-side ul{
+    position: fixed;
+    display: block;
+}
+
+.card-side li {
+    border-radius: 5px;
+    margin-top:3rem ;
+    padding:5px ;
+    background-color: #0e151c3f;
+    text-decoration: none;
+    text-align: start;
+}
+
+.card-side a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.card-body{
+    display: block;
+    background-color: #0e151c3f;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    width: 80%;
+    height: fit-content;
+}
+
+.header-card{
+    margin-bottom: 2rem;
+    height: 20%;
+    font-size: 25px;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+.fav{
+    background-color: #0f161c;
+    height: max-content;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.fav-card-content{
+    border: solid 1px white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    background-color: #0e151cf0;
+    width: 100%;
+    height: 154px;
+    background-size: cover;
+}
+
+.cardText{
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    height: max-content;
+    width: 100%;
+    background-color: #0e151c97;
+}
+
+.playlist{
+    background-color: #0f161c;
+    height: fit-content;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.content-card{
+    height: max-content;
+}
+.content-playlist-card{
+    background-color: #0e151cc8;
+    width:380px;
+    height: 200px;
+    overflow: hidden;
+    padding: 0rem;
+    border-radius:0rem ;
+
+}
+
+.footers{
+    margin-top: 1rem;
+    width: 100%;
+
+    background-color: #0e151c3f;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footers-content{
+    height: 200px;
+    font-size: 12px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.music-card{
+    padding: 1rem;
+    padding-bottom: 25rem;
+}
+
+.music-card-content{
+    margin: 1rem;
+    padding: 5px;
+    border: rgba(255, 255, 255, 0.192) 1px solid;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.music-content-1{
+    width: 100%;
+    height: max-content;
+}
+
+.music-content-1 .p1 {
+    font-size: 15px;
+}
+
+.music-content-1 .p2{
+    font-size: 10px;
+    margin-top: -1rem;
+}
+
+.music-content-2{
+    width: 100%;
+    height: 30px;
+    background-color: #0d1318;
+}
+
+.progress{
+    border: rgba(255, 255, 255, 0.228) 1px solid;
+    margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+    height: 10px;
+    border-radius: 0;
+    background-color: #22303e;
+}
+
+.progress-bar{
+    width: 0%;
+    border-radius: 2rem;
+}
+
+#timeline{
+    width: 50px;
+}
+
+.playbtn{
+    margin-right: 3rem;
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    .navbar-brand span{
+        font-size: 15px; 
+        color: cyan;
+    }
+
+    .content{
+        padding-top: 0;
+        display: block;
+        box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    }
+    .card-side{
+        width: 0%;
+        top: -100rem;
+        left: -100rem;
+    }
+
+    .card-side ul{
+        position: unset;
+    }
+    .card-body{
+        margin-top: -60rem;
+        width: 100%;
+    }
+
+    .content-card{
+        width: max-content;
+    }
+
+    .fav{
+        overflow: scroll;
+    }
+
+    .fav-card-content{
+        
+        display: flex;
+        font-size: 10px;
+        margin-right: 2rem;
+        border-radius: 12px;
+        width: 200px;
+    }
+
+    .playlist{
+        padding: 1rem;
+        overflow: scroll;
+    }
+
+    .content-playlist-card{
+        height: 200px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .content-playlist-card iframe{
+        width: 100%;
+    }
+
+    .gapp{
+        gap: 1rem;
+    }
+
+    .playbtn{
+        width: 30px;
+        height: 30px;
+        margin-right: 0;
+        margin-left: 0rem;
+    }
+
+    .playbtn-img{
+        margin-left: -5px;
+    }
+
+    .footers-content{
+        font-size: 8px;
+    }
+}

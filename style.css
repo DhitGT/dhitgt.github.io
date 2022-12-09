@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+    zoom: 90%;
+    margin: 0;
+    background-image: url("media/bgdoc.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    
+}
+
+.titlegame{
+    display:block
+}
+
+.wrap{
+    
+    padding: 5px;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to right ,rgba(0,0,0,0.7) , rgba(0,0,0,0.7));
+}
+
+.btn{
+    border-radius: 3rem;
+    margin: 1rem;
+    background-color: transparent;
+    padding: 0%;
+    width: 5rem;
+    height: 5rem;
+    
+}
+
+.btnrect{
+    border: 0px;
+    border-radius: 0rem;
+    margin: 0rem;
+    background-color: transparent;
+    color: transparent;
+    width: max-content;
+}
+
+
+
+.btn{
+    z-index: 9;
+}
+
+img{
+    pointer-events: none;
+}
+
+.btnkiri{
+    z-index: -9;
+}
+
+.btnleft{
+    transform: scaleX(-1)
+}
+.note{
+    opacity: 1;
+}
+
+.controlbtn{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 869px){
+    .wrap{
+        display: block;
+    }  
+
+    #myc{
+        width: 95%;
+        height: auto;
+    }
+    .note{
+        z-index: -5;
+        margin-bottom: -5rem;
+        opacity: 0;
+    }
+
+    body{
+        background-position-x: -400px;
+    }
+
+    .titlegame{
+        display: flex;
+    }
+}

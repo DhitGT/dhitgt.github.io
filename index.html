@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hellow</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="media/icon.jpeg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="alert-phone ">
+        <span>!!sorry mobile view not optimised yet!!</span>
+        <br>
+        <span>use desktop mode recomended</span>
+    </div>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <h3>DHEEP</h3>
+            
+          </div>
+          <ul>
+            <li>
+              <a onclick="scrollToSection('bodys')">Home</a>
+            </li>
+            <li>
+              <a onclick="scrollToSection('about')">About</a>
+            </li>
+            <li>
+              <a onclick="scrollToSection('released')">Release</a>
+            </li>
+            <li>
+              <a onclick="scrollToSection('project')">project</a>
+            </li>
+            <li>
+              <a onclick="scrollToSection('contact')">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section id="bodys">
+        <div class="body-1">
+          <p class="brand">DHEEP</p>
+          <div class="badge">
+            <div class="badge-item">CODERS</div>
+            <div class="badge-item">GAMEDEV</div>
+            <div class="badge-item">DESIGNER</div>
+          </div>
+          <div class="quotes">
+            <p>
+                Hello, I'm Dheep, a software engineering student. My days are filled with exploring the world of technology and delving deep into software development. Beyond my academic pursuits, I find joy in crafting 2D games. 
+            </p>
+          </div>
+          <p class="info-txt">Explore More</p>
+          <div class="destination">
+            <a onclick="scrollToSection('about')" class="desti-item"> about me </a>
+            <a onclick="scrollToSection('project')" class="desti-item"> project </a>
+
+            <a onclick="scrollToSection('contact')" class="desti-item"> my social media </a>
+          </div>
+        </div>
+        <div class="body-2">
+          <img src="media/donkey.png" alt="" width="400px" />
+          <div class="bg-img"></div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="top-about">
+          <h2>ABOUT ME</h2>
+        </div>
+        <div class="bottom-about">
+          <div class="left">
+            <img src="media/me.jpg" alt="" />
+          </div>
+          <div class="right">
+            Hello, I'm Dheep, a 17-year-old software engineering enthusiast currently navigating my way through the exciting realms of high school. As a second-year student in vocational school (SMK), I'm not only immersed in the academic world but also actively exploring the fascinating field of software development.
+
+I believe that every line of code is a story waiting to be told, and I find immense joy in crafting these stories into tangible experiences. My passion lies in creating engaging 2D games, where each project becomes a canvas for my creativity and a playground for innovation.
+            <div class="extends">
+              <div class="degree extends-items">
+                <p>Studied in</p>
+                <h3>Smkn 2 Kota Bekasi</h3>
+                <p>As a Software Engineering Student</p>
+              </div>
+              <div class="wcid extends-items">
+                <p>Things I Interested Now is</p>
+                <h3 class="list-interest"><span class="inter-value"></span></h3>
+                <p class="desc-interest w-100">
+                  <span class="desc-value"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="released">
+        <h2>RELEASE</h2>
+        <div class="wrapper">
+          <div class="left">
+            <img src="media/uncolonize.jpg" alt="" width="100%" />
+          </div>
+          <div class="right">
+            <h2>UNCOLONIZED</h2>
+            <div class="badge">
+              <div class="badge-item">MMO-RPG</div>
+              <div class="badge-item">Warzone</div>
+              <div class="badge-item">Shooter</div>
+              <div class="badge-item">Single Player</div>
+            </div>
+            <p class="desc">
+                The UNCOLONIZED game is a project I developed using JavaScript. In this game, you take on the role of a hero fighting against invaders to achieve independence. I created this game specifically to join a video game development competition, adding an extra layer of excitement to the August 17th celebration.
+            </p>
+            <span>Visit</span>
+            <div class="btn-ses">
+              <a href="https://github.com/dhitgt/1945">Github</a>
+              |
+              <a href="https://www.dheep.site/1945">Website</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h2>Project</h2>
+        <div class="wrapper">
+          <div class="card card-project">
+            <div class="left">
+              <img src="media/anime.png" alt="" />
+              <div class="stack">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9cZHat3ZuKHBOZ292g_CGScOaKDSdbeCkaNjewUfaQ&s" alt="" width="10px" />
+                <img src="media/node.png" alt="" width="10px" />
+                <img src="https://jikan.moe/assets/images/logo/jikan.logo.png" alt="" width="10px" />
+              </div>
+            </div>
+            <div class="right">
+              <h3>My Anime List</h3>
+              <p class="desc">
+                MyAnimeList is a website designed to explore anime details and character information. I crafted this web platform using the Jikan API, utilizing both Node.js and React.js to bring this anime-centric hub to life.
+              </p>
+              <span
+                >Visit
+                <a href="https://www.dheep.site/anime"
+                  >www.dheep.site/anime</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="card card-project ms-auto">
+            <div class="left">
+              <img src="media/uncolonize prev.png" alt="" />
+              <div class="stack">
+                <img src="media/html-5.png" alt="" width="10px" />
+                <img src="media/js.png" alt="" width="10px" />
+                <img src="https://codecafe.id/images/logo.webp" alt="" width="10px" />
+              </div>
+            </div>
+            <div class="right">
+              <h3>UNCOLONIZED Game</h3>
+              <p class="desc">
+                The UNCOLONIZED game is a project I developed using JavaScript. In this game, you take on the role of a hero fighting against invaders to achieve independence. I created this game specifically to join a video game development competition, adding an extra layer of excitement to the August 17th celebration.
+              </p>
+              <span
+                >Visit
+                <a href="https://www.dheep.site/1945"
+                  >www.dheep.site/1945</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="card card-project">
+            <div class="left">
+              <img src="media/musiclist.png" alt="" />
+              <div class="stack">
+                <img src="media/html-5.png" alt="html" width="10px" />
+                <img src="media/js.png" alt="" width="10px" />
+                <img src="media/bootstrap.png" alt="" width="10px" />
+              </div>
+            </div>
+            <div class="right">
+              <h3>Music List</h3>
+              <p class="desc">
+                MyAnimeList is a website designed to explore anime details and character information. I crafted this web platform using the Jikan API, utilizing both Node.js and React.js to bring this anime-centric hub to life.
+              </p>
+              <span
+                >Visit
+                <a href="https://music.dheep.site/"
+                  >music.dheep.site/</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="contact">
+      <div class="container">
+        <div class="wrapper">
+          <div class="sec sec-1">
+            <h5>Contact</h5>
+            <form action="https://formspree.io/f/xwkdwjlp" method="POST">
+              <label>
+                Your email:
+                <input class="form-control" type="email" name="email" />
+              </label>
+              <label>
+                Your message:
+                <textarea
+                  class="form-control"
+                  name="message"
+                  cols="40"
+                  rows="1"
+                ></textarea>
+              </label>
+              <!-- your other form fields go here -->
+              <button type="submit" class="btn btn-success">Send</button>
+            </form>
+          </div>
+          <div class="sec sec-2">
+            <h5>Social Media</h5>
+            <ul>
+              <li>Instagram : <a href="https://www.instagram.com/d.dheepy/">@d.dheepy</a></li>
+              <li>
+                Github :
+                <a href="https://github.com/dhitgt">github.com/DhitGT</a>
+              </li>
+              <li>LinkedIn : <a href="https://www.linkedin.com/in/aditya-dwi-saputra-12018628b/">my linkedIn</a></li>
+            </ul>
+          </div>
+          <div class="sec sec-3">
+            <h5>Credits</h5>
+            <p>&copy dheep.site All Rights Reserved</p>
+            <hr>
+            <p>View Counter</p>
+            <!-- hitwebcounter Code START -->
+            <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=9331190&style=0036&nbdigits=5&type=page&initCount=20" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>          
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // JavaScript function to scroll to a section with an offset
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+
+        if (section) {
+          // Calculate the offset (adjust as needed)
+          const offset = 100;
+
+          // Scroll to the section with the offset
+          window.scrollTo({
+            top: section.offsetTop - offset,
+            behavior: "smooth",
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -39,8 +39,8 @@ const canvas = document.createElement("canvas");
         // asciiContainer.style.lineHeight = "1"; // Ensure each line takes only one line height
         // asciiContainer.style.fontSize = "15px";
         video.addEventListener("loadedmetadata", async () => {
-          canvas.width = 40;
-          canvas.height = 40;
+          canvas.width = 60;
+          canvas.height = 60;
           await video.play();
 
           const frameInterval = 1000 / 20; // Adjust according to video's frame rate
@@ -56,7 +56,7 @@ const canvas = document.createElement("canvas");
             );
             const asciiString = convertToAscii(imageData);
             // asciiContainer.innerText = asciiString; // Update <p> element with ASCII frames
-              console.clear()
+              // console.clear()
               console.log(asciiString)
             await new Promise((resolve) => setTimeout(resolve, frameInterval));
           }

@@ -18,17 +18,19 @@
         Meanwhile, you can visit our other sites:
       </v-card-text>
       <div class="mb-6">
-        <v-btn
+        <div
           v-for="link in links"
           :key="link.url"
-          :href="link.url"
-          target="_blank"
-          class="mb-2 mx-2"
-          outlined
-          color="primary"
+          class="mb-2 mx-2 flex flex-col items-start outlined-btn cursor-pointer"
+          @click="openLink(link.url)"
         >
-          <v-icon left>mdi-link</v-icon>{{ link.name }}
-        </v-btn>
+          <span class="flex text-xl items-center">
+            {{ link.name }}
+          </span>
+          <span class="text-xs flex items-center text-gray-500">
+            {{ link.url }}
+          </span>
+        </div>
       </div>
     </v-card>
   </div>
@@ -49,9 +51,34 @@ export default {
       ],
     }
   },
+  methods: {
+    openLink(url) {
+      window.open(url, '_blank')
+    },
+  },
 }
 </script>
-
 <style scoped>
-/* Add any custom styles here */
+.outlined-btn {
+  border: 1px solid #1976d2; /* Match primary color */
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.outlined-btn:hover {
+  background-color: rgba(
+    25,
+    118,
+    210,
+    0.1
+  ); /* Match primary color with transparency */
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
 </style>
+
